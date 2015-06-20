@@ -1,0 +1,1 @@
+These educational system enables your students and teachers to benefit from a broad range of education-related information on their mobile device. They include up-to-date school information, access to crucial learning resources and real-time attendance and participation trackers, all of which serve to increase your students' engagement and performance
