@@ -1,0 +1,213 @@
+/*
+ * Devices
+ * min 1200
+ * min 1024
+ * max 1024
+ * max 768
+ * max 640
+ * max 480
+ * max 320
+ */
+#responsive-utils .hide-element {
+  display: none !important;
+  visibility: hidden !important;
+}
+#responsive-utils .show-element {
+  display: block !important;
+  visibility: visible !important;
+}
+#responsive-utils .full-size {
+  float: none !important;
+  display: block !important;
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+#responsive-utils .half-size {
+  width: 50% !important;
+}
+#responsive-utils .container-phone {
+  width: 100% !important;
+}
+#responsive-utils .container-phone2 {
+  width: 100% !important;
+}
+#responsive-utils .container-phone3 {
+  width: 100% !important;
+}
+#responsive-utils .container-phone4 {
+  width: 100% !important;
+}
+#responsive-utils .container-large {
+  width: 1140px !important;
+}
+#responsive-utils .container-phone {
+  padding: 0 10px;
+}
+
+/* Phones landscape 가로*/
+@media all and (max-width: 640px) {
+  
+  .no-phone-landscape,
+  .no-phone {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  .on-phone {
+    display: block !important;
+    visibility: visible !important;
+  }
+  .container {
+    width: 100% !important;
+    padding: 0 10px;
+  }
+  .grid:not(.fluid) > .row {
+    margin: 0;
+  }
+  .grid:not(.fluid) > .row > [class*="span"] {
+    width: 100% !important;
+    margin: 0 !important;
+    margin-bottom: 5px !important;	
+  }
+  .grid:not(.fluid) > .row > [class*="span"]:nth-child(even) {
+    margin-left: 0 !important;
+  }
+  .grid:not(.fluid) > .row .span12 {
+    width: 100% !important;
+  }
+  .grid:not(.fluid) > .row .row {
+    margin: 0;
+  }
+  .grid:not(.fluid) > .row .row > [class*="span"] {
+    width: 100% !important;
+    margin: 0 !important;
+    margin-bottom: 5px !important;
+  }
+  .grid:not(.fluid) > .row .row > [class*="span"]:nth-child(even) {
+    margin-left: 0 !important;
+  }
+  .grid:not(.fluid) > .row .row .span12 {
+    width: 100% !important;
+  }
+   
+ 
+   
+}
+/* Phones portrait 세로*/
+@media  all and (max-width: 480px) {
+   .no-phone-landscape,
+  .no-phone {
+    display: none !important;
+    visibility: hidden !important;
+  }
+ .container {
+    width: 100% !important;
+  }
+  .button {
+  	width: 100% !important;
+  }
+  
+  .btn{
+    width : 100%;
+  }
+  .place-left{
+  	width : 50%;
+  }
+  .span5{
+  	width : 100%;
+  }
+  
+}
+@media  all and (max-width: 360px) {
+  .no-phone-portrait,
+  .no-phone {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  .container {
+    width: 100% !important;
+  }
+  .button{
+  	width: 100% !important;
+  }
+ 
+  .navbar-collapse,
+  .navbar-form{
+  	width : 100%;
+  }
+  .btn,
+  .btn-search{
+  	width : 100%;
+  }
+  
+  .navigation-bar-content,
+  .navigation-bar{
+  	width : 50%;
+  }
+  .form-group{
+  	width : 100%;
+  }
+  .place-left{
+  	width : 50%;
+  }
+    .element .image-button .image-left{
+  	width : 50%;
+  }
+  .element-divider {
+  	width : 50%;
+  }
+  .element .brand{
+  	width : 50%
+  }
+  .navbar-right{
+  	width : 100%
+  }
+  
+}
+@media all and (max-width: 320px) {
+
+  .no-phone-portrait,
+  .no-phone {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  .container {
+    width: 100% !important;
+  }
+  .button{
+  	width: 100% !important;
+  }
+  .navbar-collapse,
+  .navbar-form{
+  	width : 50%;
+  }
+  .btn,
+  .btn-search{
+  	width : 100%;
+  }
+  
+  .navigation-bar-content,
+  .navigation-bar{
+  	width : 50%;
+  }
+  .form-group{
+  	width : 100%;
+  }
+  .place-left{
+  	width : 50%;
+  }
+ 
+   .element .image-button .image-left{
+  	width : 50%;
+  }
+  .element-divider {
+  	width : 50%;
+  }
+  .element .brand{
+  	width : 50%
+  }
+  .navbar-right{
+  	width : 100%
+ }
+
+ }

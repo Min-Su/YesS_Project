@@ -1,0 +1,141 @@
+/*
+ * Devices
+ * min 1200
+ * min 1024
+ * max 1024
+ * max 768
+ * max 640
+ * max 480
+ * max 320
+ */
+#responsive-utils .hide-element {
+  display: none !important;
+  visibility: hidden !important;
+}
+#responsive-utils .show-element {
+  display: block !important;
+  visibility: visible !important;
+}
+#responsive-utils .full-size {
+  float: none !important;
+  display: block !important;
+  width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+#responsive-utils .half-size {
+  width: 50% !important;
+}
+#responsive-utils .container-desktop {
+  width: 940px !important;
+}
+#responsive-utils .container-phone {
+  width: 100% !important;
+}
+#responsive-utils .container-phone2 {
+  width: 100% !important;
+}
+#responsive-utils .container-phone3 {
+  width: 100% !important;
+}
+#responsive-utils .container-phone4 {
+  width: 100% !important;
+}
+#responsive-utils .container-tablet {
+  width: 720px !important;
+}
+#responsive-utils .container-large {
+  width: 1140px !important;
+}
+#responsive-utils .container-phone {
+  padding: 0 10px;
+}
+
+/* Phones landscape 가로*/
+@media only screen and (max-width: 640px) {
+ 
+  .no-phone-landscape,
+  .no-phone {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  .on-phone {
+    display: block !important;
+    visibility: visible !important;
+  }
+  .container {
+    width: 100% !important;
+   
+  }
+  .grid:not(.fluid) > .row {
+    margin: 0;
+  }
+  .grid:not(.fluid) > .row > [class*="span"] {
+    width: 100% !important;
+    margin: 0 !important;
+    margin-bottom: 5px !important;
+  }
+  .grid:not(.fluid) > .row > [class*="span"]:nth-child(even) {
+    margin-left: 0 !important;
+  }
+  .grid:not(.fluid) > .row .span12 {
+    width: 100% !important;
+  }
+  .grid:not(.fluid) > .row .row {
+    margin: 0;
+  }
+  .grid:not(.fluid) > .row .row > [class*="span"] {
+    width: 100% !important;
+    margin: 0 !important;
+    margin-bottom: 5px !important;
+  }
+  .grid:not(.fluid) > .row .row > [class*="span"]:nth-child(even) {
+    margin-left: 0 !important;
+  }
+  .grid:not(.fluid) > .row .row .span12 {
+    width: 100% !important;
+  }
+  .button{
+  	width : 100%;
+  }
+  	
+ 
+}
+/* Phones portrait 세로*/
+@media only screen and (max-width: 480px) {
+  body {
+    font-size:50%;
+  }
+  .no-phone-landscape,
+  .no-phone {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  .container {
+    width: 100% !important;
+  }
+ 
+}
+@media only screen and (max-width: 360px) {
+ 
+  .no-phone-portrait,
+  .no-phone {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  .container {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 320px) {
+
+  .no-phone-portrait,
+  .no-phone {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  .container {
+    width: 100% !important;
+  }
+  
+}

@@ -1,0 +1,43 @@
+
+body{
+	margin:0px;
+	-webkit-user-select:none;
+}
+#cv{
+	width:800px;
+	height:600px;
+	float:left; /*menu 부분 정렬을 위해서 추가*/
+	background-repeat : no-repeat ;
+/*	background-image:url(img0.jpg); */
+}
+
+.menu{
+	float:left;
+	width:100px;
+}
+
+button,select{
+	width:100px;
+	height:50px;
+	float:left:left;
+}
+
+#cv_pen{
+	width:100px;
+	height:5000px;
+	float:left;
+	/*background-image:url('images/slide2.png');*/
+}
+
+fieldset{
+	width:100px;
+	height:60px;
+	float:left:left;	
+}
+
+#pen_shape{
+	position:absolute; 
+	top:0px;
+	left:650px;
+	color:black;
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="product" content="Metro UI CSS Framework">
+    <link href="stylesheets/metro-bootstrap.css" rel="stylesheet">
+    <link href="stylesheets/metro-bootstrap-responsive.css" rel="stylesheet">
+    <link href="stylesheets/iconFont.css"rel="stylesheet">
+      <link href="stylesheets/bootstrap.css" rel="stylesheet">
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+      <link href="stylesheets/bootstrap-theme.css" rel="stylesheet">
+    <link href="stylesheets/form.css" rel="stylesheet">
+   
+    <!-- Load JavaScript Libraries -->
+     <script src="//code.jquery.com/jquery-1.9.0.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+     <!-- Metro UI CSS JavaScript plugins -->
+    <script src="js/load-metro.js"></script>
+     <!-- Local JavaScript -->
+   <script src="js/form.js"></script>
+  
+    <script>
+
+        function pageRedirect(){
+            var tmp = $('#addr').val();
+            document.location.href= tmp;
+        }
+    </script>
+  
+    <title>QuadCoder</title>
+    
+  
+     </head>
+ 
+ <body class="metro" style="background-color:#FFFFFF">
+<!--navigation bar -->
+  	<nav class="navigation-bar white" >
+      <nav class="navigation-bar-content container">
+         <a href="http://54.186.72.92/" class="element image-button image-left  fg-black" >
+            <font size="4"><b>QuadCoder</b></font>
+            <img src="img/logo.jpg"/></a>
+      </nav>
+</nav>
+        <div style="background: url(img/bgimage2.jpg) top right no-repeat; background-size: cover; height: auto;">
+            <div class="container">            	
+                <a class="fg-white"><font size="7"><b><font color="coral">Y</font><font size="6">our</font> <font color="coral" size="6">e</font><font size="6">fficient</font> <font color="coral" size="6">s</font><font size="6">creen</font> <font color="coral" size="7">S</font><font size="6">haring</b> </font></font></a><br>
+                <a class="fg-white">
+                    <font color="coral" size="6">YesS</font> <font size="4"><b>는 화면 공유를 통해 정보 전달에 효과적인 멀티미디어<br>콘텐츠를 적극적으로 활용할 수 있습니다</b></font>
+                </a>
+            </div> 
+           
+               <div class="container">
+            	<div class="grid fluid">
+            		   <div class="row">
+            		   	
+              <a href="http://54.186.72.92:7000/upload" class="span2 bg-blue padding10 text-center" style="margin-left:15px">        
+                        <h3 class="fg-white"><b>Upload</b></h3>
+                       </a>
+              <a href="#ipes" class="ips span2 bg-red padding10 text-center" alt="등록 버튼" >        
+                        <h3 class="fg-white"><b>Study</b></h3></a>
+                            <div id="ipes" class="ip-popup">
+         
+
+                <fieldset class="textbox2">
+	            
+		          <label>
+		                <span>IP Address</span>
+		                <input id="addr" name="" value="" type="text" placeholder="IP Address">
+	              </label>           
+	              <a class="btn-min" onclick="pageRedirect()"><font color="white" size="4"><b>Enter</b></font></a> 
+                  <a class="btn-min" href="index.html"  alt="Close" style="margin-left:40px"><font color="white" size="4"><b>Cancel</b></font>    </a>            
+               </fieldset>
+
+          
+		</div>  
+		 <a href="info.html" class="span2 bg-green padding10 text-center" >        
+                        <h3 class="fg-white"><b>QuadCoder?</b></h3>
+                        </a>
+            </div>
+       </div>
+   </div>
+   </div>
+  
+ 
+    <div class="container">
+            <div class="grid fluid">
+                <div class="row">
+                    <div class="span5 bg-amber padding10 text-center" style="margin-left:15px">
+                        <h3 class="fg-white">Screen Sharing</h3>
+                    </div>
+                    <div class="span5 bg-pink padding10 text-center">
+                    	<h3 class="fg-white">ATTENTION Function</h3>
+                    </div>
+                    <div class="span5 bg-red padding10 text-center" >
+                        <h3 class="fg-white">Note Function</h3>
+                    </div>
+                </div>
+              
+            </div>
+       
+        	  <div class="grid fluid">
+        	  	  <div class="row">
+                          <div class="span5" style="margin-left:15px">
+                               	<img src="img/bgimage5.jpg" class="polaroid shadow">                      
+                         </div> 
+                              <div class="span5">
+                             	<img src="img/attention.jpg" class="polaroid shadow">                         
+                         
+                             </div> 
+                            <div class="span5">
+                            	<div class="img-polaroid" >                                		
+        	                      		<img src="img/penfunction.jpg" class="polaroid shadow">                          		
+                        	</div>
+                         </div>    
+                            </div> 
+                     </div>     
+                  </div>
+                 
+    	<div class="container">
+    	       <footer>
+            <div class="text-center">Copyright &copy; QuadCoder. All Rights Reserved.
+            </div>
+      </footer>
+    </div> <!-- /container -->
+
+   
+  </body>
+</html>

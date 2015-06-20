@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>File Upload</title>
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        
+        <link href="stylesheets/metro-bootstrap.css" rel="stylesheet">
+        <link href="stylesheets/metro-bootstrap-responsive.css" rel="stylesheet">
+        <link href="stylesheets/iconFont.css"rel="stylesheet">
+        <link href="stylesheets/bootstrap.css" rel="stylesheet">
+        <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+        <link href="stylesheets/bootstrap-theme.css" rel="stylesheet">    
+    </head>
+    
+    <body class="metro" style="background-color: #efeae3">
+        <nav class="navigation-bar white" >
+            <nav class="navigation-bar-content container">
+                 <a href="54.186.72.92" class="element image-button image-left  fg-black" >
+                    <font size="4"><b>QuadCoder</b></font>
+                    <img src="img/logo.jpg"/></a>
+            </nav>
+        </nav>
+ 
+      <div align="center" style="margin-top:200px">
+        <form method="post" enctype="multipart/form-data">
+
+            <div class="btn bg-green" > 
+            <input type="file" name="uploadFile"/>
+            </div>
+            <br><br>
+            <input  type="submit" name="Upload" />
+        </form>
+        
+        <footer>
+            <div class="text-center" style="margin-top:175px" >Copyright &copy; QuadCoder. All Rights Reserved.
+            </div>
+        </footer>
+       </div>
+    </body>
+</html>

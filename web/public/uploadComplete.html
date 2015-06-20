@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="product" content="Metro UI CSS Framework">
+    <link href="stylesheets/metro-bootstrap.css" rel="stylesheet">
+    <link href="stylesheets/tablet-responsive.css" rel="stylesheet">
+    <link href="stylesheets/iconFont.css"rel="stylesheet">
+      <link href="stylesheets/bootstrap.css" rel="stylesheet">
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+      <link href="stylesheets/bootstrap-theme.css" rel="stylesheet">
+      
+        
+        <script src = "http://code.jquery.com/jquery-1.7.1.js"></script>
+        <script src="js/address.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script>
+        function kakaoMsgSend() {
+            var url = document.getElementById('addr').value;
+            window.customPG.sendKakaoMsg(url);
+        }
+         </script>
+        <title>QuadCoder</title>
+    </head>
+    
+    <body class="metro" style="background-color: #efeae3">
+        
+       <nav class="navigation-bar white" >
+      <nav class="navigation-bar-content container">
+         <a href="http://54.186.72.92" class="element image-button image-left  fg-black" >
+            <font size="4"><b>QuadCoder</b></font>
+            <img src="img/logo.jpg"/></a>
+        </nav>
+        </nav>
+       
+         <div class="btn bg-green" style="margin-left:37%; margin-top:10%">
+           <button id="aquireAddr">주소가져오기</button>
+           <input type="text" id="addr"/>
+         </div>
+        
+            <br>
+               <span class="btn bg-blue" onclick="kakaoMsgSend()" style="margin-top:5%; margin-left:40%">
+                    <span><font size="6">Kakao Talk 전송</font></span>
+                    
+                </span>
+
+      <footer>
+      
+        <div class="text-center" style="margin-top:15%" >Copyright &copy; QuadCoder. All Rights Reserved.</div>
+
+      </footer>
+        
+    </body>
+</html>

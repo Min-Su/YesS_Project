@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="product" content="Metro UI CSS Framework">
+
+	<title>Board</title>
+	<script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+	 <script src="js/jquery/jquery.min.js"></script>
+	<script src="js/board.js"></script>
+    
+
+    <link href="stylesheets/metro-bootstrap-responsive.css" rel="stylesheet">
+     <link href="stylesheets/metro-bootstrap.css" rel="stylesheet">
+    <script src="/socket.io/socket.io.js"></script>
+	<link href="stylesheets/style.css" rel="stylesheet"  >   
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+
+    
+
+    <link href="stylesheets/deck.core.css" rel="stylesheet" >
+  <link href="stylesheets/deck.navigation.css" rel="stylesheet" >
+<script src="js/deck/deck.core.js"></script>
+ 
+</head>
+
+<body class="metro">
+	
+     <div class="deck-container" >
+            <canvas  id = "cv" width="800px;" height="600px;"></canvas>
+            
+    <div aria-role="navigation">
+      <a href="#" class="deck-prev-link" id="prev">&#8592;</a>
+      <a href="#" class="deck-next-link" id="next">&#8594;</a>
+    </div>
+       
+      
+     </div>
+     <div class="container">
+     	<div class="grid">
+     	        <div class="col-lg-offset-10">
+          
+             <label for="trasnsition-pen"><font size="4">Pen-Color :</font>
+                <select name="pen color" id="pen_color" ></select></label> 
+                <div id = "clear" class="small button bg-blue fg-white" style="margin-top:10%">
+   <font color="white" size="5">   전체삭제</font>
+                </div>
+             <div id = "attention_show" class="small button bg-red fg-white" style="margin-top:10%">
+        <font color="white" size="5">주목!</font>
+                </div>
+           
+                <div id = "attention_cancel" class="small button bg-green fg-white" style="margin-top:10%">
+        <font color="white" size="5">주목취소</font>
+                </div>
+
+      </div>
+     </div>
+      
+      </div>
+     
+   
+
+</body>
+</html>
